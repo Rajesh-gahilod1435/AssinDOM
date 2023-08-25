@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style="background-color: aquamarine;">
+    <pre>Write the code to access element which is having id as "text"</pre><br>
+    <pre>
+        document.getElementById(IdName).innerHTML="Text";
+    </pre><br>
+    <pre>Write the code to access element which is having tag as "h1"</pre> <br>
+    <pre>
+        document.getElemetByTagName('pre').innerHTML="";
+    </pre><br>
+    <pre>Write the code to access element which is having class as "box"</pre><br>
+    <pre>
+        documet.getElemetnByClassName('ClassName');
+    </pre><br>
+    <pre>"<h1>Hello </h1>
+
+        Change the heading from ""Hello"" to ""Hello World"" using DOM functions"
+    </pre><br>
+    <pre>
+        documet.getElemetByTagName('h1').innerHTML='Hello World'
+    </pre><br>
+    <pre>
+        Create an HTML page having content as Hello world and a button named Replace Text.
+         When user will click on this button page content should be changed to "Welcome to Elevation academy"
+    </pre><br>
+    <pre>
+        let btn =document.getElementById('btn');
+        function cheng(){
+            btn.innerHTML=""Welcome to Elevation academy""
+        }
+    </pre><br>
+    <pre>
+        "<h1>Hello </h1>
+
+Add one style attribute and give text color as
+ red and id attribute and give the id value as ""heading"" in the above given h1 tag using DOM functions"
+    </pre><br>
+    <pre>
+        let hedding=document.getElementByTag('h1')
+        hedding.getAtribute("class");
+        hedding.style.color="red"
+    </pre><br>
+    <pre>
+        Create three cards on HTML page and arrange them using flex property in row or horizontal 
+        direction and also create button at the bottom named "Change Flex direction". When user clicks on this button,
+         the cards arrangement should be changed to vertical direction.
+    </pre><br>
+    <pre>
+        let contenair=document.getElemetById('contenair');
+        Function fun(){
+            let crea=documet.CreatElemet('Div');
+            contenair.appendchild(crea);
+            crea.style.disply='block';
+        }
+    </pre><br>
+    <pre>What’s the difference between window vs document?</pre><br>
+    <pre>
+        document is an object inside the window object and we use a document object for manipulation inside the document.
+    </pre><br>
+    <pre>
+        Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second 
+    </pre><br>
+    <pre>
+       let date=new date();
+       let hrs = date Hours();
+       let min = date Minuts();
+       let sec = date secons();
+    </pre>
+
+
+</body>
+</html>
